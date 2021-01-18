@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+}
+
+.post-container {
+    font-family: 'Dosis', sans-serif;
+    width: 75%;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F3F1F7;
+}
+
+button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    width: 78%;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.form-container {
+    position: absolute;
+    top: 200px;
+}

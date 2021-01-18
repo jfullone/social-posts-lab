@@ -1,0 +1,20 @@
+.entire-post {
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.thought {
+    font-size: 15px;
+}
+
+button {
+    float: right;
+    border: none;
+}

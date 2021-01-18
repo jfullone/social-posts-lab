@@ -1,0 +1,10 @@
+<div class="form-wrapper">
+  <form *ngIf="showForm" class="form" #addForm="ngForm" (ngSubmit)="submitPost(addForm)">
+    <button (click)="toggleForm()" class="close-out">X</button>
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" ngModel/>
+    <label for="thought" name="thought">Thought</label>
+    <textArea type="text" name="thought" id="thought" rows="10" ngModel></textArea>
+    <button class="add-post">Add Post</button>
+  </form>
+</div>

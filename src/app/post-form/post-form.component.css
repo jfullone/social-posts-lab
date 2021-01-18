@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #B1DDEA;
+    padding: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.add-post {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.close-out {
+    position: relative;
+    border: none;
+    right: 10px;
+}

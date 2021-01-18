@@ -1,0 +1,15 @@
+<div class="content">
+  <header><h1>My Thoughts</h1></header>
+  <button (click)="toggleForm()" class="new-thought">New Thought</button>
+  <div class="post-container">
+    <app-post
+      *ngFor="let post of postList; let i = index"
+      [singlePost]="post"
+      (deleted)="onDelete(i)"
+    >
+    </app-post>
+  </div>
+  <div *ngIf="showForm" class="form-container">
+    <app-post-form (submitted)="onSubmit($event)"></app-post-form>
+  </div>
+</div>
